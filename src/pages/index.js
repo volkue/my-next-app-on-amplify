@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -48,6 +49,10 @@ export default function Home() {
             height={37}
             priority
           />
+        </div>
+        <div className={styles.grid}>
+          <Link href='/static' className={`${styles.card} ${inter.className}`}>Static page <span>-&gt;</span></Link>
+          <Link href='/ssr'  className={`${styles.card} ${inter.className}`}>SSR page <span>-&gt;</span></Link>
         </div>
 
         <div className={styles.grid}>
