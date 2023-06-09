@@ -9,8 +9,8 @@ function Fb() {
 </g>
 <defs>
 <linearGradient id="paint0_linear_1049_666" x1="9.23077" y1="-0.769231" x2="9.23077" y2="20.7692" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EBDDC8"/>
-<stop offset="1" stop-color="#DBC095"/>
+<stop stopColor="#EBDDC8"/>
+<stop offset="1" stopColor="#DBC095"/>
 </linearGradient>
 <clipPath id="clip0_1049_666">
 <rect width="11.2308" height="11.2308" fill="white" transform="translate(4.61548 4.61523)"/>

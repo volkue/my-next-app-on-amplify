@@ -9,8 +9,8 @@ function Youtube() {
 </g>
 <defs>
 <linearGradient id="paint0_linear_1049_653" x1="10" y1="0" x2="10" y2="20" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EBDDC8"/>
-<stop offset="1" stop-color="#DBC095"/>
+<stop stopColor="#EBDDC8"/>
+<stop offset="1" stopColor="#DBC095"/>
 </linearGradient>
 <clipPath id="clip0_1049_653">
 <rect width="11.0769" height="11.0769" fill="white" transform="translate(4.61548 4.61523)"/>

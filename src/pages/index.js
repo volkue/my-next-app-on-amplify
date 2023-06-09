@@ -3,7 +3,22 @@ import TitleBlock from '@/components/TitleBlock';
 import Image from 'next/image';
 import Link from 'next/link';
 import styled from 'styled-components';
-import img1 from 'public/images/home/Event_Planning.jpg';
+import img1 from '../images/home/Event_Planning.jpg';
+import img2 from '../images/home/Event_Design.jpg';
+import img3 from '../images/home/Floral_by_Nexa.jpg';
+import img4 from '../images/home/Invitations_by_Nexa.jpg';
+import img5 from '../images/home/Rentals_by_Nexa.jpg';
+import img6 from '../images/home/Event_Marketing.jpg';
+import img7 from '../images/home/about.jpg';
+import img8 from '../images/home/about_2.jpg';
+import img9 from '../images/home/about_weddings.jpg';
+import img10 from '../images/home/about_private_events.jpg';
+import img11 from '../images/home/about_non_profit.jpg';
+import img12 from '../images/home/about_pr_events.jpg';
+import img13 from '../images/home/about_corporate_events.jpg';
+import img14 from '../images/home/about_networking.jpg';
+import img15 from '../images/home/showcase_wedding.jpg';
+import img16 from '../images/home/showcase_corporate.jpg';
 import Review from '@/components/Review';
 import { REVIEW } from '@/utils/constants';
 
@@ -204,8 +219,8 @@ export default function Home() {
       {/* <Maintenance/>  */}
       <TitleBlock
         h1='EVENT PLANNING AND PRODUCTION COMPANY'
-        img1='/images/main_picture.jpg'
-        // img2='/images/newlyweds.webp'
+        img1='../images/main_picture.jpg'
+        // img2='../images/newlyweds.webp'
         alt='newlyweds'
         text1='Welcome to Nexa Events, the leading event planning and production company located in Beverly Hills, CA. We specialize in creating extraordinary experiences that leave a lasting impression. With a meticulous attention to detail and a passion for innovation, our dedicated team brings together creativity, technology, and personalized service to make your vision a reality.'
         text2='Experience the Nexa Difference and let us elevate your events to new heights, creating magical and unforgettable moments that will be cherished for a lifetime!'
@@ -244,7 +259,7 @@ export default function Home() {
           </Card>
           <Card>
             <Image
-              src='/images/home/Event_Design.jpg'
+              src={img2}
               width={302}
               height={434}
               alt='Event_Design'
@@ -255,7 +270,7 @@ export default function Home() {
           </Card>
           <Card>
             <Image
-              src='/images/home/Floral_by_Nexa.jpg'
+              src={img3}
               width={302}
               height={434}
               alt='Floral_by_Nexa'
@@ -266,7 +281,7 @@ export default function Home() {
           </Card>
           <Card>
             <Image
-              src='/images/home/Invitations_by_Nexa.jpg'
+              src={img4}
               width={302}
               height={434}
               alt='Invitations_by_Nexa'
@@ -277,7 +292,7 @@ export default function Home() {
           </Card>
           <Card>
             <Image
-              src='/images/home/Rentals_by_Nexa.jpg'
+              src={img5}
               width={302}
               height={434}
               alt='Rentals_by_Nexa'
@@ -288,7 +303,7 @@ export default function Home() {
           </Card>
           <Card>
             <Image
-              src='/images/home/Event_Marketing.jpg'
+              src={img6}
               width={302}
               height={434}
               alt='Event_Marketing'
@@ -302,7 +317,7 @@ export default function Home() {
       <AboutBlock className='page-width'>
         <span>ABOUT US</span>
         <Image
-          src='/images/home/about.jpg'
+          src={img7}
           width={1170}
           height={300}
           alt='About block'
@@ -340,7 +355,7 @@ export default function Home() {
           </article>
           <article>
             <Image
-              src='/images/home/about_2.jpg'
+              src={img8}
               alt='holiday'
               width='364'
               height='573'
@@ -356,7 +371,7 @@ export default function Home() {
       <AboutCards className='page-width narrow'>
         <AboutCard>
           <Image
-            src='/images/home/about_weddings.jpg'
+            src={img9}
             alt='holiday'
             width='456'
             height='300'
@@ -367,7 +382,7 @@ export default function Home() {
         </AboutCard>
         <AboutCard>
           <Image
-            src='/images/home/about_private_events.jpg'
+            src={img10}
             alt='holiday'
             width='456'
             height='300'
@@ -378,7 +393,7 @@ export default function Home() {
         </AboutCard>
         <AboutCard>
           <Image
-            src='/images/home/about_non_profit.jpg'
+            src={img11}
             alt='holiday'
             width='456'
             height='300'
@@ -389,7 +404,7 @@ export default function Home() {
         </AboutCard>
         <AboutCard>
           <Image
-            src='/images/home/about_pr_events.jpg'
+            src={img12}
             alt='holiday'
             width='456'
             height='300'
@@ -400,7 +415,7 @@ export default function Home() {
         </AboutCard>
         <AboutCard>
           <Image
-            src='/images/home/about_corporate_events.jpg'
+            src={img13}
             alt='holiday'
             width='456'
             height='300'
@@ -411,7 +426,7 @@ export default function Home() {
         </AboutCard>
         <AboutCard>
           <Image
-            src='/images/home/about_networking.jpg'
+            src={img14}
             alt='holiday'
             width='456'
             height='300'
@@ -465,7 +480,7 @@ export default function Home() {
       <CaseBlock className='page-width narrow'>
         <div>
           <Image
-            src='/images/home/showcase_wedding.jpg'
+            src={img15}
             alt='showcase_wedding'
             width='479'
             height='337'
@@ -475,7 +490,7 @@ export default function Home() {
         </div>
         <div>
           <Image
-            src='/images/home/showcase_corporate.jpg'
+            src={img16}
             alt='showcase_corporate'
             width='479'
             height='337'
